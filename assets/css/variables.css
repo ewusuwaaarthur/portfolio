@@ -1,0 +1,62 @@
+/* ==========================================================
+   DESIGN TOKENS — change colours / fonts here and the whole
+   site updates.
+   ========================================================== */
+:root {
+  /* Light theme (default) */
+  --bg: #fbf7f0;
+  --bg-alt: #f3ebdd;
+  --surface: #ffffff;
+  --surface-2: #faf3e6;
+  --ink: #16231e;
+  --muted: #55645d;
+  --line: rgba(22, 35, 30, 0.12);
+
+  --green: #1f5c4a;
+  --green-soft: #d9ebe3;
+  --accent: #c2441c;         /* terracotta – buttons, highlights */
+  --accent-text: #b13a14;    /* accent used for text on cream */
+  --on-accent: #ffffff;
+  --gold: #e8a93b;
+  --gold-soft: #fbe9c4;
+
+  --shadow-sm: 0 2px 8px rgba(22, 35, 30, 0.06);
+  --shadow-md: 0 14px 40px -12px rgba(22, 35, 30, 0.18);
+  --shadow-lg: 0 30px 70px -24px rgba(22, 35, 30, 0.28);
+
+  /* Type */
+  --font-display: "Fraunces", "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Shape & spacing */
+  --radius-sm: 12px;
+  --radius: 20px;
+  --radius-lg: 32px;
+  --container: 1180px;
+  --gutter: clamp(18px, 4vw, 40px);
+  --section-y: clamp(72px, 10vw, 128px);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  --bg: #0e1613;
+  --bg-alt: #121c18;
+  --surface: #17231e;
+  --surface-2: #1c2a24;
+  --ink: #f4efe5;
+  --muted: #a5b5ac;
+  --line: rgba(244, 239, 229, 0.14);
+
+  --green: #6fcfa9;
+  --green-soft: #1d3a30;
+  --accent: #ff8a5f;
+  --accent-text: #ff9c76;
+  --on-accent: #1d0f08;
+  --gold: #f2b84b;
+  --gold-soft: #3a2f16;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 14px 40px -12px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 30px 70px -24px rgba(0, 0, 0, 0.7);
+}

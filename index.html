@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuella Arthur | Web Developer &amp; IT Student in Accra</title>
+<meta name="description" content="Emmanuella Ewusuwaa Arthur, IT Personnel and web developer in Accra, Ghana. I build PHP &amp; MySQL systems and clean interfaces: GPS attendance, an exam-prep platform, hostel booking and more.">
+<meta name="theme-color" content="#fbf7f0">
+<meta property="og:title" content="Emmanuella Arthur — Web Developer">
+<meta property="og:description" content="I build web systems people actually use. PHP, MySQL, JavaScript and thoughtful design.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%231f5c4a'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' text-anchor='middle' fill='%23fbf7f0'%3EEA%3C/text%3E%3C/svg%3E">
+
+<!-- Apply saved theme before paint (prevents a flash) -->
+<script>
+  (function () {
+    var t = null;
+    try { t = localStorage.getItem('ea-theme'); } catch (e) {}
+    if (!t && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) t = 'dark';
+    if (t) document.documentElement.setAttribute('data-theme', t);
+    document.documentElement.classList.add('js');
+  })();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/variables.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand" aria-label="Emmanuella Arthur — home">
+      <span class="brand-mark">EA</span>
+      <span class="brand-text">Emmanuella</span>
+    </a>
+
+    <nav aria-label="Main">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Switch between light and dark mode" type="button">
+        <svg class="theme-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="theme-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a href="#contact" class="btn btn-primary btn-sm">Hire me</a>
+      <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links" type="button">
+        <span class="bars"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <span class="status-pill"><span class="pulse"></span> Open to freelance &amp; internships</span>
+
+        <h1>I build <span class="rotator" id="rotator">web apps</span><br>people actually use.</h1>
+
+        <p class="hero-lead">
+          Hi, I'm <strong>Emmanuella Arthur</strong>, an IT Personnel and web developer in Accra.
+          I turn real problems into clean, working software with <strong>Programming Languages that include (HTML, CSS, PHP, MySQL and JavaScript)</strong>,
+          from creating this very platform and other various platforms which comprises of a GPS attendance tracking system to study platforms for Ghanaian students.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-primary">See my work
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="assets/cv/Emmanuella_Arthur_CV.pdf" class="btn btn-ghost" target="_blank" rel="noopener" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>
+            Download CV
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Accra, Ghana</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c3 2.5 9 2.5 12 0v-5"/></svg>BSc IT · SIIMT University</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Cybersecurity-curious</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-back two"></div>
+        <div class="photo-back"></div>
+        <div class="photo-frame">
+          <img src="assets/images/me.png" alt="Portrait of Emmanuella Arthur smiling in a bright office" width="820" height="1024" fetchpriority="high">
+        </div>
+        <div class="float-chip chip-1">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span>
+          <span>PHP · MySQL · JS<small>My daily stack</small></span>
+        </div>
+        <div class="float-chip chip-2">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <span>GPS Attendance<small>Built for universities</small></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML &amp; CSS</span><span>Python</span><span>Bootstrap</span><span>Git &amp; GitHub</span><span>Figma</span><span>C++</span><span>SQL</span>
+        <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML &amp; CSS</span><span>Python</span><span>Bootstrap</span><span>Git &amp; GitHub</span><span>Figma</span><span>C++</span><span>SQL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="section" style="padding-block: 0 var(--section-y);" aria-label="At a glance">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat reveal"><div class="stat-num"><span data-count="6">0</span></div><div class="stat-label">Featured projects built</div></div>
+      <div class="stat reveal" style="--d:.08s"><div class="stat-num"><span data-count="2" data-suffix="+">0</span></div><div class="stat-label">Years of client-facing work</div></div>
+      <div class="stat reveal" style="--d:.16s"><div class="stat-num"><span data-count="4">0</span></div><div class="stat-label">Certifications earned</div></div>
+      <div class="stat reveal" style="--d:.24s"><div class="stat-num"><span data-count="5">0</span></div><div class="stat-label">Languages spoken</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section alt" id="work">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Selected work</span>
+      <h2>Things I've built to solve <em class="hl">real problems</em></h2>
+      <p>Every project started with a question — "how could this be easier for students?" Here's what came out of it.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- 1 · Smart Attendance -->
+      <article class="project reveal">
+        <div class="thumb t-green">
+          <span class="project-no">01</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a map with a location pin and a check-in card">
+            <defs><pattern id="g1" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="1.5"/></pattern></defs>
+            <rect width="640" height="400" fill="url(#g1)"/>
+            <path d="M-20 300 C120 240 200 330 330 250 S520 180 680 230" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="22" stroke-linecap="round"/>
+            <path d="M120 -20 C150 90 90 170 170 420" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="16" stroke-linecap="round"/>
+            <circle cx="400" cy="190" r="120" fill="#e8a93b" fill-opacity=".14" stroke="#e8a93b" stroke-opacity=".7" stroke-width="2.5" stroke-dasharray="8 8"/>
+            <circle cx="400" cy="190" r="62" fill="#e8a93b" fill-opacity=".2"/>
+            <path d="M400 232c-22-30-42-50-42-76a42 42 0 1 1 84 0c0 26-20 46-42 76z" fill="#e8a93b"/>
+            <circle cx="400" cy="156" r="15" fill="#1f5c4a"/>
+            <rect x="60" y="62" width="214" height="104" rx="18" fill="#fbf7f0"/>
+            <circle cx="96" cy="100" r="18" fill="#d9ebe3"/>
+            <path d="M88 100l6 6 11-12" fill="none" stroke="#1f5c4a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="126" y="88" width="108" height="10" rx="5" fill="#16231e"/>
+            <rect x="126" y="108" width="72" height="8" rx="4" fill="#16231e" fill-opacity=".35"/>
+            <rect x="82" y="134" width="170" height="10" rx="5" fill="#1f5c4a" fill-opacity=".18"/>
+            <rect x="82" y="134" width="124" height="10" rx="5" fill="#1f5c4a"/>
+            <rect x="430" y="290" width="150" height="62" rx="16" fill="#fbf7f0"/>
+            <text x="450" y="318" font-family="Georgia,serif" font-size="13" font-weight="700" fill="#16231e">Attendance today</text>
+            <text x="450" y="342" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#1f5c4a">92%</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">Education · Web system</span>
+          <h3>Smart Attendance System</h3>
+          <p>GPS-based attendance for universities. Students check in only when they're actually in class, and lecturers get real-time reports and analytics instead of paper registers.</p>
+          <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap</span></div>
+          <a class="project-link" href="#contact" data-project="Smart Attendance System">Ask me about this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 2 · AceHub -->
+      <article class="project reveal" style="--d:.1s">
+        <div class="thumb t-gold">
+          <span class="project-no">02</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a quiz card with answer options">
+            <circle cx="560" cy="60" r="120" fill="#fff" fill-opacity=".25"/>
+            <circle cx="70" cy="360" r="90" fill="#c2441c" fill-opacity=".18"/>
+            <rect x="120" y="54" width="400" height="292" rx="26" fill="#fbf7f0"/>
+            <rect x="152" y="86" width="86" height="26" rx="13" fill="#16231e"/>
+            <text x="195" y="104" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#fbf7f0" text-anchor="middle">WASSCE</text>
+            <rect x="152" y="130" width="330" height="14" rx="7" fill="#16231e"/>
+            <rect x="152" y="154" width="230" height="14" rx="7" fill="#16231e" fill-opacity=".4"/>
+            <rect x="152" y="188" width="336" height="36" rx="12" fill="#16231e" fill-opacity=".06"/>
+            <rect x="152" y="232" width="336" height="36" rx="12" fill="#d9ebe3" stroke="#1f5c4a" stroke-width="2.5"/>
+            <circle cx="176" cy="250" r="9" fill="#1f5c4a"/><path d="M171 250l4 4 7-8" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="152" y="276" width="336" height="36" rx="12" fill="#16231e" fill-opacity=".06"/>
+            <rect x="196" y="244" width="140" height="11" rx="5.5" fill="#1f5c4a"/>
+            <rect x="196" y="200" width="170" height="11" rx="5.5" fill="#16231e" fill-opacity=".3"/>
+            <rect x="196" y="288" width="120" height="11" rx="5.5" fill="#16231e" fill-opacity=".3"/>
+            <rect x="436" y="318" width="120" height="44" rx="22" fill="#c2441c"/>
+            <text x="496" y="346" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">AI explain ✦</text>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">EdTech · Platform</span>
+          <h3>AceHub</h3>
+          <p>An exam-prep platform for BECE, WASSCE &amp; NOVDEC students with past questions, quizzes and AI-powered explanations.</p>
+          <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+          <a class="project-link" href="#contact" data-project="AceHub">Ask me about this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 3 · WhatsApp Chat Builder -->
+      <article class="project reveal">
+        <div class="thumb t-teal">
+          <span class="project-no">03</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of chat bubbles in a phone">
+            <circle cx="90" cy="70" r="100" fill="#1f5c4a" fill-opacity=".12"/>
+            <rect x="200" y="20" width="240" height="380" rx="34" fill="#16231e"/>
+            <rect x="212" y="34" width="216" height="352" rx="24" fill="#efe7da"/>
+            <rect x="212" y="34" width="216" height="52" rx="24" fill="#1f5c4a"/>
+            <rect x="212" y="62" width="216" height="24" fill="#1f5c4a"/>
+            <circle cx="240" cy="60" r="12" fill="#d9ebe3"/>
+            <rect x="262" y="52" width="70" height="8" rx="4" fill="#fff"/>
+            <rect x="262" y="66" width="44" height="6" rx="3" fill="#fff" fill-opacity=".6"/>
+            <rect x="228" y="108" width="132" height="42" rx="14" fill="#fff"/>
+            <rect x="242" y="123" width="90" height="9" rx="4.5" fill="#16231e" fill-opacity=".35"/>
+            <rect x="282" y="164" width="132" height="56" rx="14" fill="#cdeccb"/>
+            <rect x="296" y="178" width="100" height="9" rx="4.5" fill="#16231e" fill-opacity=".4"/>
+            <rect x="296" y="196" width="68" height="9" rx="4.5" fill="#16231e" fill-opacity=".3"/>
+            <rect x="228" y="236" width="112" height="42" rx="14" fill="#fff"/>
+            <rect x="242" y="251" width="78" height="9" rx="4.5" fill="#16231e" fill-opacity=".35"/>
+            <rect x="300" y="292" width="114" height="42" rx="14" fill="#cdeccb"/>
+            <rect x="314" y="307" width="74" height="9" rx="4.5" fill="#16231e" fill-opacity=".4"/>
+            <rect x="226" y="346" width="150" height="24" rx="12" fill="#fff"/>
+            <circle cx="396" cy="358" r="14" fill="#1f5c4a"/>
+            <path d="M391 358h10M397 353l5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">Fun · Web tool</span>
+          <h3>WhatsApp Chat Builder</h3>
+          <p>Create realistic WhatsApp chat templates for fun and social media — pure front-end, no sign-up needed.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://apexmall324.github.io/whatsapp-chat-generator/" data-project="WhatsApp Chat Builder">Ask me about this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 4 · Hostel Booking -->
+      <article class="project reveal" style="--d:.1s">
+        <div class="thumb t-terra">
+          <span class="project-no">04</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a hostel building with a booking card">
+            <circle cx="560" cy="330" r="130" fill="#fff" fill-opacity=".12"/>
+            <rect x="70" y="120" width="230" height="240" rx="12" fill="#fbf7f0"/>
+            <rect x="70" y="100" width="230" height="30" rx="8" fill="#16231e"/>
+            <g fill="#e8a93b">
+              <rect x="96" y="156" width="40" height="40" rx="6"/><rect x="156" y="156" width="40" height="40" rx="6" fill="#d9ebe3"/><rect x="216" y="156" width="40" height="40" rx="6"/>
+              <rect x="96" y="216" width="40" height="40" rx="6" fill="#d9ebe3"/><rect x="156" y="216" width="40" height="40" rx="6"/><rect x="216" y="216" width="40" height="40" rx="6" fill="#d9ebe3"/>
+            </g>
+            <rect x="152" y="296" width="48" height="64" rx="8" fill="#1f5c4a"/>
+            <circle cx="192" cy="330" r="3.5" fill="#e8a93b"/>
+            <rect x="336" y="96" width="240" height="190" rx="22" fill="#fbf7f0"/>
+            <rect x="358" y="118" width="196" height="64" rx="12" fill="#e8a93b" fill-opacity=".35"/>
+            <rect x="372" y="132" width="100" height="10" rx="5" fill="#16231e"/>
+            <rect x="372" y="152" width="70" height="8" rx="4" fill="#16231e" fill-opacity=".4"/>
+            <text x="540" y="164" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#16231e" text-anchor="end">GH₵</text>
+            <rect x="358" y="198" width="90" height="26" rx="13" fill="#16231e" fill-opacity=".08"/>
+            <rect x="458" y="198" width="96" height="26" rx="13" fill="#16231e" fill-opacity=".08"/>
+            <rect x="358" y="238" width="196" height="30" rx="15" fill="#1f5c4a"/>
+            <text x="456" y="258" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">Book securely</text>
+            <circle cx="372" cy="330" r="22" fill="#fbf7f0"/>
+            <path d="M364 331a8 8 0 1 1 3.5 6.6M364 331l-3-3M364 331l3-3" fill="none" stroke="#c2441c" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">Booking · Web system</span>
+          <h3>Hostel Booking System</h3>
+          <p>Online hostel booking for students across Ghana — browse rooms, reserve a bed and pay securely without queueing at the hostel office.</p>
+          <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+          <a class="project-link" href="#contact" data-project="Hostel Booking System">Ask me about this <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </article>
+
+
+      <article class="project reveal" style="--d:.2s">
+        <div class="thumb t-teal">
+          <span class="project-no">05</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a Sudoku grid with numbers">
+            <circle cx="560" cy="60" r="120" fill="#1f5c4a" fill-opacity=".12"/>
+            <rect x="120" y="54" width="400" height="292" rx="26" fill="#fbf7f0"/>
+            <rect x="152" y="86" width="86" height="26" rx="13" fill="#16231e"/>
+            <text x="195" y="104" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#fbf7f0" text-anchor="middle">Sudoku</text>
+            <rect x="152" y="130" width="330" height="14" rx="7" fill="#16231e"/>
+            <rect x="152" y="154" width="230" height="14" rx="7" fill="#16231e" fill-opacity=".4"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">Puzzle Game · Web app</span>
+          <h3>Sudoku Solver</h3>
+          <p>A web-based Sudoku solver that helps users find solutions to challenging puzzles with a clean, intuitive interface.</p>
+          <div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+          <a class="project-link" href="https://apexmall324.github.io/sudoku/" target="_blank" rel="noopener noreferrer">Live demo →</a>
+        </div>
+      </article>
+
+      <article class="project reveal" style="--d:.3s">
+        <div class="thumb t-purple">
+          <span class="project-no">06</span>
+          <svg viewBox="0 0 640 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustration of a VCF file icon">
+            <rect x="120" y="54" width="400" height="292" rx="26" fill="#fbf7f0"/>
+            <rect x="152" y="86" width="86" height="26" rx="13" fill="#16231e"/>
+            <text x="195" y="104" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#fbf7f0" text-anchor="middle">VCF Generator</text>
+            <rect x="152" y="130" width="330" height="14" rx="7" fill="#16231e"/>
+            <rect x="152" y="154" width="230" height="14" rx="7" fill="#16231e" fill-opacity=".4"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <span class="project-kicker">Utility Tool · Web app</span>
+          <h3>VCF Generator</h3>
+          <p>A simple web application for generating VCF (vCard) files for easy contact management and sharing.</p>
+          <div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+          <a class="project-link" href=" https://apexmall324.github.io/contact-foundry/" target="_blank" rel="noopener noreferrer">Live demo →</a>
+        </div>
+      </article>
+
+    </div>
+    <!--
+      TO ADD LIVE LINKS: inside any project's .project-body, add e.g.
+      <a class="project-link" href="https://your-demo-url" target="_blank" rel="noopener">Live demo →</a>
+    -->
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="frame"><img src="assets/images/me2.png" alt="Emmanuella Arthur standing in a modern office" loading="lazy" width="683" height="1024"></div>
+        <span class="tag">40% Merit Scholar ✦</span>
+      </div>
+
+      <div class="about-text reveal" style="--d:.1s">
+        <span class="eyebrow">About me</span>
+        <h2 class="h2">Curious by nature, <em class="hl">detail-obsessed</em> by habit.</h2>
+        <p>
+          I'm <strong>Emmanuella Ewusuwaa Arthur</strong>, an Information Technology Personnel at SIIMT University with strong foundations in
+          programming, databases and web development. I'm happiest when I'm taking a messy, real-world process and turning it into something simple that just works.
+        </p>
+        <p>
+          Before tech took over my days I spent two years in customer service, so I know what it feels like to be the person
+          <em>using</em> a system. That's why I care as much about clear, friendly interfaces as I do about clean code. I'm also deeply interested in
+          <strong>cybersecurity</strong> and how to keep people's data safe.
+        </p>
+
+        <dl class="facts">
+          <div class="fact"><dt>Based in</dt><dd>Spintex, Accra, Ghana</dd></div>
+          <div class="fact"><dt>Studying</dt><dd>BSc Information Technology</dd></div>
+          <div class="fact"><dt>Open to</dt><dd>Freelance · Internships</dd></div>
+          <div class="fact"><dt>Reply time</dt><dd>Usually within a day</dd></div>
+        </dl>
+
+        <div class="about-lists">
+          <div>
+            <h3>What I love</h3>
+            <ul class="check-list">
+              <li>Coding &amp; software development</li>
+              <li>Cybersecurity</li>
+              <li>Database management</li>
+              <li>Web development</li>
+              <li>Learning new digital tools</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Languages I speak</h3>
+            <div class="lang"><span>English</span><span>Fluent</span></div>
+            <div class="lang"><span>Twi</span><span>Fluent</span></div>
+            <div class="lang"><span>Ga</span><span>Fluent</span></div>
+            <div class="lang"><span>French</span><span>Intermediate</span></div>
+            <div class="lang"><span>Mandarin</span><span>Beginner</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section alt" id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Skills</span>
+      <h2>The toolkit I <em class="hl">reach for</em></h2>
+      <p>Languages and tools I use to take an idea from sketch to something people can click.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <span class="num">01</span>
+        <h3>Frontend</h3>
+        <p>Responsive, accessible interfaces.</p>
+        <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Bootstrap</span></div>
+      </div>
+      <div class="skill-card reveal" style="--d:.1s">
+        <span class="num">02</span>
+        <h3>Backend &amp; Data</h3>
+        <p>Logic, databases and APIs behind the screen.</p>
+        <div class="chips"><span class="chip">PHP</span><span class="chip">Python</span><span class="chip">C++</span><span class="chip">SQL</span><span class="chip">MySQL</span></div>
+      </div>
+      <div class="skill-card reveal" style="--d:.2s">
+        <span class="num">03</span>
+        <h3>Tools</h3>
+        <p>How I stay organised and ship.</p>
+        <div class="chips"><span class="chip">Git &amp; GitHub</span><span class="chip">VS Code</span><span class="chip">Figma</span><span class="chip">Google Workspace</span><span class="chip">Microsoft Office</span></div>
+      </div>
+    </div>
+
+    <div class="soft-strip reveal">
+      <strong>Beyond code</strong>
+      <span>Communication</span><span>Teamwork</span><span>Problem-solving</span><span>Adaptability</span><span>Time management</span><span>Research &amp; report writing</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How I can help</span>
+      <h2>Services for people with <em class="hl">big ideas</em></h2>
+      <p>Whether you need a first website or a custom system for your school or business, here's what I offer.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>Website Development</h3>
+        <p>Fast, responsive websites that look great on every phone and are easy for you to update.</p>
+      </div>
+      <div class="service reveal" style="--d:.08s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+        <h3>UI / UX Design</h3>
+        <p>Clear layouts and friendly flows, designed in Figma before a single line of code.</p>
+      </div>
+      <div class="service reveal" style="--d:.16s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="7" rx="2"/><rect x="2" y="14" width="20" height="7" rx="2"/><path d="M6 6.5h.01M6 17.5h.01"/></svg></div>
+        <h3>PHP Systems</h3>
+        <p>Custom booking, attendance and management systems tailored to how your organisation really works.</p>
+      </div>
+      <div class="service reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+        <h3>Database Design</h3>
+        <p>Clean, well-structured MySQL databases that stay fast and reliable as your data grows.</p>
+      </div>
+      <div class="service reveal" style="--d:.08s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg></div>
+        <h3>API Integration</h3>
+        <p>Connect payments, messaging and other services so your tools work together seamlessly.</p>
+      </div>
+      <div class="service reveal" style="--d:.16s">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div>
+        <h3>Maintenance &amp; Support</h3>
+        <p>Updates, fixes and friendly support so your site keeps running smoothly after launch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section class="section alt" id="journey">
+  <div class="container">
+    <div class="journey">
+      <div class="section-head reveal">
+        <span class="eyebrow">My journey</span>
+        <h2>From classroom to <em class="hl">code</em></h2>
+        <p>Study, work and building — the path that got me here, and what's next.</p>
+        <a href="assets/cv/Emmanuella_Arthur_CV.pdf" class="btn btn-ghost" style="margin-top:26px" target="_blank" rel="noopener" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>
+          Full CV (PDF)
+        </a>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <span class="progress" id="tl-progress"></span>
+
+        <div class="tl-item reveal">
+          <div class="tl-card">
+            <span class="tl-when">Next</span>
+            <h3>Building impactful solutions</h3>
+            <p class="tl-org">Looking for freelance projects &amp; internships</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-card">
+            <span class="tl-when">2024 – Now</span>
+            <h3>Developer of AceHub &amp; Smart Attendance</h3>
+            <p class="tl-org">Personal &amp; academic projects</p>
+            <ul><li>Built a GPS-based attendance system for universities</li><li>Launched an exam-prep platform with AI explanations</li><li>Earned Python and Database certificates at SIIMT</li></ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-card">
+            <span class="tl-when">Jun 2023 – Jul 2025</span>
+            <h3>Customer Service Representative</h3>
+            <p class="tl-org">Race Courier Service</p>
+            <ul><li>Handled customer calls and inquiries professionally</li><li>Coordinated deliveries and resolved customer issues</li><li>Maintained positive client relationships and supported operations</li></ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-card">
+            <span class="tl-when">Feb 2023 – Present</span>
+            <h3>BSc Information Technology</h3>
+            <p class="tl-org">SIIMT University</p>
+            <span class="badge">🏆 40% Academic Merit Scholarship</span>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-card">
+            <span class="tl-when">2019 – 2022</span>
+            <h3>WASSCE</h3>
+            <p class="tl-org">Accra Girls Senior High School</p>
+            <ul><li>Started learning web development in 2022</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CREDENTIALS ============ -->
+<section class="section" id="credentials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Credentials</span>
+      <h2>Certified &amp; <em class="hl">recognised</em></h2>
+    </div>
+
+    <div class="cert-grid">
+      <div class="cert reveal">
+        <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+        <h3>Python Certificate</h3><p>SIIMT · 2024</p>
+      </div>
+      <div class="cert reveal" style="--d:.08s">
+        <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+        <h3>Database Certificate</h3><p>SIIMT · 2024</p>
+      </div>
+      <div class="cert reveal" style="--d:.16s">
+        <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
+        <h3>HTML Certificate</h3><p>2023</p>
+      </div>
+      <div class="cert reveal" style="--d:.24s">
+        <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+        <h3>Forensic Science &amp; Fraud Investigation</h3><p>2023</p>
+      </div>
+    </div>
+
+    <div class="award reveal">
+      <div class="trophy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></div>
+      <div>
+        <h3>40% Academic Merit Scholarship</h3>
+        <p>Awarded by SIIMT University in 2022 for outstanding academic results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact" style="padding-top:0">
+  <div class="container">
+    <div class="contact reveal">
+      <div class="contact-grid">
+        <div>
+          <span class="eyebrow">Let's work together</span>
+          <h2>Got an idea? Let's make it <em>real.</em></h2>
+          <p class="contact-lead">Tell me a little about what you need. I'll get back to you personally, usually within a day.</p>
+
+          <div class="contact-list">
+            <a class="contact-row" href="mailto:ewusuwaaarthur@gmail.com">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <span><small>Email</small><b>ewusuwaaarthur@gmail.com</b></span>
+            </a>
+            <a class="contact-row" href="tel:+233597323795">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+              <span><small>Phone</small><b>+233 59 732 3795</b></span>
+            </a>
+            <a class="contact-row" href="https://wa.me/233597323795?text=Hi%20Emmanuella%2C%20I%20saw%20your%20portfolio%20and%20I'd%20like%20to%20talk." target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.4 5.13L2 22l5.13-1.5a9.9 9.9 0 0 0 4.9 1.28h.01c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.09c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.12.11-1.8-.11-.42-.13-.95-.3-1.64-.6-2.9-1.25-4.79-4.16-4.94-4.35-.14-.2-1.18-1.57-1.18-3 0-1.43.75-2.13 1.02-2.42.27-.29.58-.36.78-.36.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.6.83 2.06.9 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.14.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.14.48.12.65-.07.18-.2.75-.87.95-1.17.2-.29.4-.24.66-.15.27.1 1.7.8 1.99.95.29.14.48.22.55.34.07.13.07.72-.17 1.4z"/></svg></span>
+              <span><small>WhatsApp</small><b>Chat with me instantly</b></span>
+            </a>
+            <div class="contact-row">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <span><small>Location</small><b>Spintex Lekma, Accra, Ghana</b></span>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" id="contact-form" novalidate>
+          <h3>Send me a message</h3>
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. Kwame Mensah" required></div>
+          <div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+          <div class="field">
+            <label for="topic">I'm interested in</label>
+            <select id="topic" name="topic">
+              <option>A new website</option>
+              <option>A custom system (PHP / MySQL)</option>
+              <option>UI / UX design</option>
+              <option>An internship or job</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea></div>
+          <button class="btn btn-primary" type="submit">Send message
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">This opens your email app with everything filled in, ready to send.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a href="#home" class="brand"><span class="brand-mark">EA</span><span>Emmanuella Arthur</span></a>
+        <p>Web developer &amp; IT student building useful, good-looking things from Accra, Ghana.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Emmanuella Ewusuwaa Arthur. All rights reserved.</span>
+      <span>Designed &amp; built with care in Accra 🇬🇭</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="to-top" aria-label="Back to top" type="button">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

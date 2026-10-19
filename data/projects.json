@@ -1,0 +1,6 @@
+[
+  { "title": "Smart Attendance System", "description": "GPS-based attendance for universities with real-time reporting and analytics.", "tags": ["PHP", "MySQL", "JavaScript", "Bootstrap"], "github": "", "demo": "" },
+  { "title": "AceHub", "description": "Exam-prep platform for BECE, WASSCE & NOVDEC students with past questions, quizzes and AI explanations.", "tags": ["PHP", "MySQL", "JavaScript"], "github": "", "demo": "" },
+  { "title": "WhatsApp Chat Builder", "description": "Create realistic WhatsApp chat templates for fun and social media.", "tags": ["HTML", "CSS", "JavaScript"], "github": "", "demo": "" },
+  { "title": "Hostel Booking System", "description": "Online hostel booking for students across Ghana with secure payments.", "tags": ["PHP", "MySQL", "JavaScript"], "github": "", "demo": "" }
+]
